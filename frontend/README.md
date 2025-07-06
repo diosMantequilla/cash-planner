@@ -1,6 +1,49 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🖥️ Frontend – Cash Planner
+
+Dashboard web construido con React + Vite + TypeScript + TailwindCSS.
+
+## 🛠️ Instalación
+
+```bash
+npm install
+
+## 🚦 Comandos
+
+Desarrollo:
+npm run dev
+
+## 🏗️ Estructura
+
+src/components/
+Header, filtros, tabla, paginación, etc.
+
+src/api/
+Funciones para consumir endpoints del backend
+
+src/pages/Dashboard.tsx
+Página principal, muestra tabla de gastos, filtros y total
+
+src/types/gasto.ts
+Tipos TypeScript
+
+## 🎯 Funcionalidades
+
+Filtros por fecha, categoría, usuario, descripción
+
+Paginación de 100 registros por vista
+
+Visualización de total filtrado en el header
+
+Listado y autocompletado de usuarios/categorías/descripciones
+
+UI responsiva y limpia con TailwindCSS
+
+## 🧑‍💻 Personaliza en .env el endpoint del backend si lo necesitas
+VITE_API_URL=http://localhost:4000
+
+## 🏁 Inicia el dashboard y accede en http://localhost:5173
 
 Currently, two official plugins are available:
 
